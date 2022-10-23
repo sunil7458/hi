@@ -17,7 +17,7 @@ const f = async () => {
 };
 
 const Report = () => {
-  const { data, isLoading } = useQuery("h", () => f());
+  const { data,  } = useQuery("h", () => f());
   console.log(data);
   const [vb, setvb] = useState({
     kname: "",

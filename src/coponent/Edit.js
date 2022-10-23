@@ -29,7 +29,7 @@ const Edit = () => {
   // })
 
   const fun = (ed) => {
-    return axios.post("https://jsonplaceholder.typicode.com/posts"), ed;
+    return axios.post("https://jsonplaceholder.typicode.com/posts"), ed
   };
 
   const { mutateAsync } = useMutation(

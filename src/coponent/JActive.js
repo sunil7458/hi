@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { data, moht, sunil,  } from '../Sdata'
+import {  moht, sunil,  } from '../Sdata'
 
 const JActive = ({sej}) => {
 const [   col , setcol  ] = useState("")

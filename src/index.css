@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+background-color: #f4f5f3;
+
+}
+.nav{
+
+    box-shadow: 0 0 10px rgb(28 39 60 / 10%);
+}
+
+.ull{
+    height: 100vh;
+}
+
+
+
+input {
+    /* border: 1px solid gray; */
+}
+

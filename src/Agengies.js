@@ -6,7 +6,7 @@ import img10 from "../src/sunil.jpeg";
 import img11 from "../src/action-md.png";
 
 const Agengies = () => {
-  const [t, sett] = useState(data);
+  const [t,] = useState(data);
   return (
     <div className="age">
       <Nav />

@@ -17,39 +17,18 @@ const Edit = () => {
     seted({ ...ed, [name]: value });
   };
 
-  //     const headers = {
+      const headers = {
 
-  //         'Content-Type': 'application/json',
-  //         'Authorization': 'Bearer '
-  //     }
+          'Content-Type': 'application/json',
+          'Authorization': 'Bearer '
+      }
 
-  //     axios.post("https://jsonplaceholder.typicode.com/posts"  , ed , {
-  //         headers: headers
+      axios.post("https://jsonplaceholder.typicode.com/posts"  , ed , {
+          headers: headers
 
-  // })
+  })
 
-  const fun = (ed) => {
-    return axios.post("https://jsonplaceholder.typicode.com/posts"), ed
-  }
-
-  const { mutateAsync } = useMutation(
-    fun,
-    {
-      onSuccess: (data) => {
-        console.log(data, "data");
-      },
-    },
-    {
-      onError: (data) => {
-        console.log(data, "data");
-      },
-    }
-  );
-  const v = () => {
-    mutateAsync({ ...ed });
-  };
-
-  console.log(ed);
+  
   return (
     <div className="Edit">
       <Nav />

@@ -28,8 +28,7 @@ const fetch = async () => {
 
 
 const User = () => {
-const navigate = useNavigate()
-  const { data, isLoading } = useQuery("pos", () => fetch());
+  const { data, } = useQuery("pos", () => fetch());
   console.log(data);
 
   

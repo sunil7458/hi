@@ -18,7 +18,7 @@ import {
 import Button from "./Button";
 import { data } from "./Sdata";
 const Post = () => {
-  const [t, sett] = useState(data);
+  const [t,] = useState(data);
   const [form, setform] = useState({
     name: "",
     lname: "",

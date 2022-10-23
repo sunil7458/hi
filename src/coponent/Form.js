@@ -17,7 +17,7 @@ const fetchpost = async () => {
 };
 
 const Form = () => {
-  const { data, isLoading } = useQuery("posts", () => fetchpost());
+  const { data, } = useQuery("posts", () => fetchpost());
 //   console.log(data);
   const navigate =useNavigate()
 

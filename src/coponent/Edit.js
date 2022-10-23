@@ -23,11 +23,15 @@ const Edit = () => {
           'Authorization': 'Bearer '
       }
 
+     const v = ()  =>{
+
+
       axios.post("https://jsonplaceholder.typicode.com/posts"  , ed , {
-          headers: headers
+        headers: headers
 
-  })
+})
 
+     }
   
   return (
     <div className="Edit">
